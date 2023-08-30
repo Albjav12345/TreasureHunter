@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - JumpableObject
+  - Spike
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background Colors
+    uniqueID: 1045512835
+    locked: 0
+  - name: Small Clouds
+    uniqueID: 1721431759
+    locked: 0
+  - name: Big Clouds
+    uniqueID: 1592495643
+    locked: 0
+  - name: Water Reflection
+    uniqueID: 3408296067
+    locked: 0
+  - name: Background Palm Trees
+    uniqueID: 4103371595
+    locked: 0
+  - name: Background Objects
+    uniqueID: 1164087803
+    locked: 0
+  - name: Map
+    uniqueID: 1571960509
+    locked: 0
+  - name: Player
+    uniqueID: 4140288425
+    locked: 0
+  - name: Front Objects
+    uniqueID: 1860253553
+    locked: 0
