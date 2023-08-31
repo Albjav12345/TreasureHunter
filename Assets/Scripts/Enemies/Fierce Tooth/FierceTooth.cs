@@ -31,13 +31,18 @@ public class FierceTooth : MonoBehaviour
             animator.SetBool("FiercePreAttack", true);
             interrogation.SetActive(true);
             Invoke("TrackPlayer", preAttackTime);
-            animator.SetBool("FiercePreAttack", false);
         }
         else
         {
             Move();
         }
     }
+    
+    private void StartTrackingPlayer()
+    {
+
+    }
+
     private void Move()
     {
         if (collisioner.collisioner == false)
@@ -54,6 +59,7 @@ public class FierceTooth : MonoBehaviour
 
     private void TrackPlayer()
     {
+        animator.SetBool("FiercePreAttack", false);
         interrogation.SetActive(false);
         if (playerTransform == null)
         {
